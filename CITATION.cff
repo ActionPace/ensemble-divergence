@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: "If you use this methodology or build on this work, please cite the paper."
+type: software
+title: "ensemble-divergence"
+abstract: >
+  Structural opacity scoring and ensemble divergence methodology for AI systems
+  auditing. Identifies implicit contracts — undeclared preconditions, orphaned
+  invariants, and composition seams — in source code and research methods
+  descriptions by running multiple independent models against the same artifact
+  and treating disagreement as a structural signal.
+authors:
+  - family-names: King
+    given-names: David E.
+    affiliation: ActionPace
+    website: "https://thirdplace.space/ai"
+repository-code: "https://github.com/ActionPace/ensemble-divergence"
+license: Apache-2.0
+date-released: "2026-04-29"
+version: "0.2"
+keywords:
+  - ensemble divergence
+  - structural opacity
+  - AI auditing
+  - implicit contracts
+  - orphaned invariants
+  - composition seams
+  - software engineering
+  - AI execution frameworks
+  - reproducibility
+  - methods underspecification
+
+preferred-citation:
+  type: unpublished
+  title: "Toward a Control Architecture for Composable AI Execution Systems"
+  authors:
+    - family-names: King
+      given-names: David E.
+      affiliation: ActionPace
+  year: 2026
+  notes: "arXiv forthcoming · cs.SE / cs.AI"
+  url: "https://thirdplace.space/ai"
+
+references:
+  - type: article
+    title: >
+      Read the Paper, Write the Code: Agentic Reproduction of
+      Social-Science Results
+    authors:
+      - family-names: Kohler
+        given-names: Benjamin
+      - family-names: Zollikofer
+        given-names: David
+      - family-names: Einsiedler
+        given-names: Johanna
+      - family-names: Hoyle
+        given-names: Alexander
+      - family-names: Ash
+        given-names: Elliott
+    year: 2026
+    url: "https://arxiv.org/abs/2604.21965"
+    notes: "arXiv:2604.21965 · cs.AI"
+
+  - type: article
+    title: >
+      From Admission to Invariants: Measuring Deviation in
+      Delegated Agent Systems
+    authors:
+      - family-names: Fernandez
+    year: 2026
+    url: "https://arxiv.org/abs/2604.17517"
+    notes: "arXiv:2604.17517"
