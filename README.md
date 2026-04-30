@@ -26,10 +26,9 @@ The methodology has been validated against:
 
 | File | What it is |
 |------|-----------|
-| `ensemble_divergence_demo.ipynb` | Source code analysis demo — Apertus 8B vs Mistral 7B on LangGraph, with A100 sections for 70B and Nemo 12B |
-| `ensemble_divergence_social_science.ipynb` | Methods description analysis demo — applied to Settele (2022), a verified failure case from Kohler et al. (2026) |
-| `ensemble_divergence_social_science.py` | Python script version of the social science demo |
-| `methods_opacity_prompts.py` | Adapted opacity prompts for natural language methods descriptions, with the Settele test case |
+| `ensemble_divergence_demo.ipynb` | [Link](https://colab.research.google.com/github/ActionPace/ensemble-divergence/blob/main/ensemble_divergence_demo.ipynb) | Source code analysis demo — Apertus 8B vs Mistral 7B on LangGraph, with A100 sections for 70B and Nemo 12B | 
+| `ensemble_divergence_social_science.ipynb` | [Link](https://colab.research.google.com/github/ActionPace/ensemble-divergence/blob/main/ensemble_divergence_social_science.ipynb) | Methods description analysis demo — applied to Settele (2022), a verified failure case from Kohler et al. (2026) |
+
 
 ---
 
@@ -93,27 +92,6 @@ The methodology detects underspecification where it lives — in the artifact �
 ### Requirements
 
 - Google Colab (free T4 tier for Section 1; any paid plan for A100 sections)
-- HuggingFace account with access to [Apertus on the ActionPace profile](https://huggingface.co/actionpace)
-- HF token added to Colab Secrets as `HF_TOKEN`
-
-### Source code demo (Section 1 — free tier)
-
-```
-1. Open ensemble_divergence_demo.ipynb in Colab
-2. Add HF_TOKEN to Colab Secrets (key icon, left sidebar)
-3. Run Section 0 (hardware detection)
-4. Run Section 1 cells in order — downloads ~10GB of models on first run
-```
-
-Sections 2 and 3 require A100 and will skip gracefully on T4.
-
-### Methods description demo
-
-```
-1. Open ensemble_divergence_social_science.ipynb in Colab
-2. Add HF_TOKEN to Colab Secrets
-3. Run all cells — Section 1 runs on free T4
-```
 
 The Settele (2022) methods text is embedded in the notebook. No external data required.
 
@@ -123,8 +101,8 @@ The Settele (2022) methods text is embedded in the notebook. No external data re
 
 | Model | Source | Access |
 |-------|--------|--------|
-| Apertus 8B Instruct 2509 (Q5_K_M) | [unsloth/Apertus-8B-Instruct-2509-GGUF](https://huggingface.co/unsloth/Apertus-8B-Instruct-2509-GGUF) | Gated — request via ActionPace HF profile |
-| Apertus 70B Instruct 2509 (Q5_K_S) | [unsloth/Apertus-70B-Instruct-2509-GGUF](https://huggingface.co/unsloth/Apertus-70B-Instruct-2509-GGUF) | Gated — request via ActionPace HF profile |
+| Apertus 8B Instruct 2509 (Q5_K_M) | [unsloth/Apertus-8B-Instruct-2509-GGUF](https://huggingface.co/unsloth/Apertus-8B-Instruct-2509-GGUF) | Public |
+| Apertus 70B Instruct 2509 (Q5_K_S) | [unsloth/Apertus-70B-Instruct-2509-GGUF](https://huggingface.co/unsloth/Apertus-70B-Instruct-2509-GGUF) | Public |
 | Mistral 7B Instruct v0.3 (Q5_K_M) | [bartowski/Mistral-7B-Instruct-v0.3-GGUF](https://huggingface.co/bartowski/Mistral-7B-Instruct-v0.3-GGUF) | Public |
 | Mistral Nemo Instruct 2407 (Q5_K_M) | [bartowski/Mistral-Nemo-Instruct-2407-GGUF](https://huggingface.co/bartowski/Mistral-Nemo-Instruct-2407-GGUF) | Public |
 

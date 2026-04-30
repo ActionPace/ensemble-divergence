@@ -12,7 +12,7 @@ authors:
   - family-names: King
     given-names: David E.
     affiliation: ActionPace
-    website: "https://thirdplace.space/ai"
+    website: "http://third-place.space/ai"
 repository-code: "https://github.com/ActionPace/ensemble-divergence"
 license: Apache-2.0
 date-released: "2026-04-29"
@@ -38,7 +38,7 @@ preferred-citation:
       affiliation: ActionPace
   year: 2026
   notes: "arXiv forthcoming · cs.SE / cs.AI"
-  url: "https://thirdplace.space/ai"
+  url: "http://third-place.space/ai"
 
 references:
   - type: article
