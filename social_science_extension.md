@@ -226,7 +226,9 @@ a contract that the system depends on but that no component declares.
 
 The full four-model ensemble run is demonstrated in:
 
-[ensemble_divergence_social_science.ipynb](https://colab.research.google.com/github/ActionPace/ensemble-divergence/blob/main/ensemble_divergence_social_science.ipynb)
+| File | Links | What it is |
+|------|-------|-----------|
+| `ensemble_divergence_social_science.ipynb` | [Colab](https://colab.research.google.com/github/ActionPace/ensemble-divergence/blob/main/ensemble_divergence_social_science.ipynb) · [Findings](https://github.com/ActionPace/ensemble-divergence/blob/main/social_science_extension.md) | Methods description analysis — applied to Settele (2022), a verified failure case from Kohler et al. (2026) |
 
 The Settele methods text is embedded in the notebook. No external data or
 API access to the original paper is required. The ground truth (A4/A5 = Democrat)
