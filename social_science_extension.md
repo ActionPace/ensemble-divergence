@@ -227,7 +227,7 @@ a contract that the system depends on but that no component declares.
 The full four-model ensemble run is demonstrated in:
 
 ```
-ensemble_divergence_social_science.ipynb
+[ensemble_divergence_social_science.ipynb](https://colab.research.google.com/github/ActionPace/ensemble-divergence/blob/main/ensemble_divergence_social_science.ipynb)
 ```
 
 The Settele methods text is embedded in the notebook. No external data or
