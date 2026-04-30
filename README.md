@@ -24,7 +24,7 @@ The methodology has been validated against:
 
 ## Repository contents
 
-| File | What it is |
+| File | Link | What it is |
 |------|-----------|
 | `ensemble_divergence_demo.ipynb` | [Link](https://colab.research.google.com/github/ActionPace/ensemble-divergence/blob/main/ensemble_divergence_demo.ipynb) | Source code analysis demo — Apertus 8B vs Mistral 7B on LangGraph, with A100 sections for 70B and Nemo 12B | 
 | `ensemble_divergence_social_science.ipynb` | [Link](https://colab.research.google.com/github/ActionPace/ensemble-divergence/blob/main/ensemble_divergence_social_science.ipynb) | Methods description analysis demo — applied to Settele (2022), a verified failure case from Kohler et al. (2026) |
