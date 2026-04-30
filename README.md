@@ -10,8 +10,8 @@
 
 This repository accompanies the working paper:
 
-> **Toward a Control Architecture for Composable AI Execution Systems**  
-> David E. King · ActionPace · April 2026  
+> **[Toward a Control Architecture for Composable AI Execution Systems](https://buildworlds.s3.us-east-1.amazonaws.com/king2026_control_architecture_draft_v02.pdf)**  
+> David E. King · [ActionPace](http://actionpace.com) · April 2026  
 > arXiv forthcoming · cs.SE / cs.AI
 
 The methodology uses **ensemble divergence as a structural signal** — running multiple independent models against the same source artifact and treating disagreement, not just agreement, as meaningful information. Where models converge, the finding is high-confidence. Where they diverge, a composition seam has been located: a zone where implicit contracts are unclear and different training histories lead to different structural interpretations.
@@ -155,4 +155,4 @@ The pairing is deliberate: two architecturally independent model families from d
 
 ---
 
-**ActionPace · thirdplace.space/ai · April 2026**
+**ActionPace · [third-place.space/ai](http://third-place.space/ai) · April 2026**
